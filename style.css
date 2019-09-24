@@ -1,0 +1,267 @@
+.main-nav{
+	font-size:20;
+	}
+*{
+	margin : 0;
+	padding : 0;
+}
+.row{
+	max-width : 1140px;
+	margin : 0 auto;
+}
+body{
+	font-family : tahoma;
+}
+.hero{
+	position : absolute;
+	width : 1140px;
+	top : 50%;
+	left : 50%;
+	transform : translate(-50%,-50%);
+}
+header{
+	background-image : linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/1.jpg);
+	height : 100vh;
+	background-position : center;
+	background-size : 100% 100%;
+	background-repeat : no-repeat;
+}
+h1{color : white;}
+.main-nav{
+	float : right;
+	list-style : none;
+	margin-top : 60px;
+}
+.main-nav li{
+	display : inline-block;
+	margin-left : 20px;
+}
+.main-nav li a{
+	color : white;
+	text-decoration : none;
+	font-size : 90%;
+	font-weight : bold;
+}
+.main-nav li a:hover{
+	color : #e67e22;
+	border-bottom : 2px solid #e67e22;
+	transition : all 0.5s ease-in;
+	padding : 10px 0;
+}
+.logo img{
+	height : 100px;
+	float : left;
+	margin-top : 30px;
+}
+.btn{
+	border : 1px solid #e67e22;
+	padding : 10px 30px;
+	color : #e67e22;
+	text-decoration : none;
+	border-radius : 12px;
+	margin-right : 15px;
+}
+.button-awesome{
+	margin-top : 40px;
+}
+.btn-half{
+	background-color : #e67e22;
+	color : white;
+}
+.btn-full:hover{
+	background-color : #e67e22;
+	color : white;
+	transition : all 0.5s ease-in;
+}
+.copy{
+	width : 70%;
+	margin-left : 15%;
+	
+}
+h3::after{
+	width : 100px;
+	height : 2px;
+	background-color : #e67e22;
+	display : block;
+	content : " ";
+	margin : 0 auto;
+	margin-top : 30px;
+}
+.features{font-size : 16px;}
+.features h3{
+	margin-top : 80px;
+	margin-bottom : 30px;
+}
+.arranging {
+	text-align : justify;
+}
+.features h4{
+	margin-left : 110px;
+	margin-top:80px;
+}
+.field-showcase{
+	list-style : none;
+	width : 100%;
+}
+.field-showcase li{
+	display : block;
+	width : 25%;
+	float : left;
+}
+.fields{margin : 60px;background-color:white;}
+.not{
+	margin-top : 100px;
+}
+.not img{
+	width : 100%;
+	margin-top : 50px;
+	
+}
+.con{
+	width : 80%;
+	margin-left : 20px;
+}
+.not img{
+	transition : all 0.5s;
+}
+.not img:hover{
+	transform : scale(1.05);
+}
+#primary-content {
+    padding: 80px 0 0 0;
+    text-align: center;
+}
+#primary-content p{font-size : 20px;}
+#primary-content h3 {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 300px;
+    padding: 0 0 15px 0;
+}
+.site-footer{
+	color:#fff;
+	margin-top:50px;
+	padding-top:20px;
+	background-color : #222;
+	
+}
+.bottom-footer{
+	margin-top : 10px;
+	border-top:1px solid;
+	color : #e67e22;
+}
+.footer-nav{
+	text-align : right;
+	list-style:none;
+}
+.footer-nav li{display:inline;padding:10px;}
+.footer li:not(first-child):before{
+	content : "|";
+	padding-top:0 10px;
+}
+.footer-nav a {
+	color  : #e67e22;
+}
+.footer-nav a:hover{
+	color : #e67e22;
+	text-decoration :none;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 30%;
+    padding:10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 10px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+.inlogin{
+	margin-left:15%;
+	width:10%;
+	border-radius:10px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+#model-footer{
+	width:100%;
+	}
